@@ -1,5 +1,5 @@
 image:
-  repository: yourdockerhub/myapp
+  repository: shivawmm1810/myapp
   tag: "1.0"
 
 replicaCount: 1
