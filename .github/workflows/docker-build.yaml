@@ -22,5 +22,5 @@ jobs:
 
       - name: Build and Push
         run: |
-          docker build -t shivawmm1810/myapp:${{ github.sha }} .
+          docker build -t shivawmm1810/myapp:${{ github.sha }} -f app/Dockerfile .
           docker push shivawmm1810/myapp:${{ github.sha }}
