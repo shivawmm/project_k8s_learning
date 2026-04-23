@@ -1,2 +1,7 @@
+# resources:
+#   - ../../helm/myapp/templates
+
+
 resources:
-  - ../../helm/myapp/templates
+  - deployment.yaml
+  - service.yaml
