@@ -11,3 +11,7 @@ patches:
         value:
           - name: ENV
             value: DEV
+
+      - op: replace
+        path: /spec/replicas
+        value: 5
