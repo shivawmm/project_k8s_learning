@@ -1,5 +1,6 @@
 resources:
   - ../../base
+  - hpa.yaml
 
 patches:
   - target:
@@ -11,7 +12,3 @@ patches:
         value:
           - name: ENV
             value: PROD
-
-      - op: replace
-        path: /spec/replicas
-        value: 3
