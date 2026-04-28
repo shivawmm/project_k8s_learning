@@ -1,7 +1,9 @@
 # resources:
 #   - ../../helm/myapp/templates
 
-
+images:
+  - name: shivawmm1810/myapp
+    newTag: latest
 resources:
   - deployment.yaml
   - service.yaml
