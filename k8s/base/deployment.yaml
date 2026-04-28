@@ -15,7 +15,7 @@ spec:
       containers:
         - name: myapp
           image: shivawmm1810/myapp:latest
-          imagepullpolicy: Always
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           resources:
